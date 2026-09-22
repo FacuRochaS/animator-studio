@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "animator-studio",
+  "outputfilename": "animator-studio",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run start",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Facundo Rocha Seret",
+    "email": "facurochaseret@gmail.com"
+  }
+}
